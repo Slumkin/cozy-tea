@@ -68,7 +68,7 @@ margin-top: 70px;
 
 
 #mission {
-  background-image: url(/css/images/img-mission-background.jpg);
+  background-image: url(css/images/img-mission-background.jpg);
   height: 90vh; /* Используйте vh (viewport height) для адаптивной высоты */
   width: 100%; /* 100% ширины для адаптивности */
   background-position: center; /* Выравнивание фона по центру */
@@ -133,7 +133,7 @@ background-size: cover;
 /* location  */
 
 #location {
-  background-image: url(/css/images/img-locations-background.jpg);
+  background-image: url(css/images/img-locations-background.jpg);
   height: 70vh; /* Используйте vh (viewport height) для адаптивной высоты */
   width: 100%; /* 100% ширины для адаптивности */
   background-position: center; /* Выравнивание фона по центру */
