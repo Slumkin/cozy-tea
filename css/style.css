@@ -134,7 +134,7 @@ background-size: cover;
 
 #location {
   background-image: url(images/img-locations-background.jpg);
-  height: 70vh; /* Используйте vh (viewport height) для адаптивной высоты */
+  max-height: 570px; /* Используйте vh (viewport height) для адаптивной высоты */
   width: 100%; /* 100% ширины для адаптивности */
   background-position: center; /* Выравнивание фона по центру */
 background-size: cover;
