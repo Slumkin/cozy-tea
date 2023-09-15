@@ -1,0 +1,186 @@
+/* Standard Style */
+/* * {
+  left: 0;
+  right: 0;
+} */
+
+body {
+  font-family: Helvetica;
+  font-size:22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+ 
+}
+
+
+
+h2, h4, h5 {
+  margin: 10px;
+}
+
+/* Header */
+
+.head {
+  position: fixed;
+  top:0;
+  z-index: 2;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+  background-color:black;
+ 
+}
+
+.logo-img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+.navbar-list {
+  display: inline-flex;
+  max-width: 100%;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.navbar-list a {
+  margin: 10px;
+  flex-grow: 1;
+  color:seashell;
+}
+
+/* Main body */
+
+main {
+margin-top: 70px;
+
+}
+
+
+/* Mission Section */
+
+
+#mission {
+  background-image: url(/css/images/img-mission-background.jpg);
+  height: 90vh; /* Используйте vh (viewport height) для адаптивной высоты */
+  width: 100%; /* 100% ширины для адаптивности */
+  background-position: center; /* Выравнивание фона по центру */
+background-size: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+ 
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8); /* Полупрозрачный фон */
+  width: 100%; /* Используйте проценты для адаптивной ширины */
+  padding: 20px; /* Добавьте отступы для текста */
+  color: seashell; /* Цвет текста */
+}
+
+.text-tea {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 25px auto;
+}
+
+.picture {
+  width: 300px;
+  height: 200px;
+}
+
+.cards {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-basis: 300px;
+  flex-shrink: 1;
+  flex-grow: 0;
+  margin: 14px;
+  
+}
+
+
+/* location  */
+
+#location {
+  background-image: url(/css/images/img-locations-background.jpg);
+  height: 70vh; /* Используйте vh (viewport height) для адаптивной высоты */
+  width: 100%; /* 100% ширины для адаптивности */
+  background-position: center; /* Выравнивание фона по центру */
+background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* justify-content: flex-start; */
+  align-items: center;
+ margin-top: 65px;
+ opacity: 0.6;
+ padding-top: 50px;
+}
+
+.card-locations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+
+
+.card-body-loc{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 15px 40px;
+  background-color: black;
+  opacity: 1;
+  align-items: center;
+}
+
+/* Footer */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.copyright {
+  text-align: left;
+  margin-bottom: 30px
+}
